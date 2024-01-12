@@ -1,13 +1,13 @@
-import { ComponentProps } from 'react';
+import { ComponentProps } from 'react'
 
-import { styled } from './styles';
+import { styled } from './styles'
 
 export const Button = styled('button', {
   borderRadius: '$sm',
   border: 0,
   backgroundColor: '$ignite500',
   color: '$white',
-  
+
   fontFamily: '$default',
   fontWeight: 'bold',
 
@@ -21,13 +21,13 @@ export const Button = styled('button', {
       big: {
         fontSize: 16,
         padding: '$3 $6',
-      }
-    }
+      },
+    },
   },
 
   defaultVariants: {
-    size: 'small'
-  }
+    size: 'small',
+  },
 })
 
 export type ButtonProps = ComponentProps<typeof Button>
