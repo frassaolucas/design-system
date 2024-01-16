@@ -9,6 +9,13 @@ export default {
     src: 'https://picsum.photos/id/64/500',
     alt: 'Avatar photo',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
