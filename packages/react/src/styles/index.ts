@@ -8,17 +8,17 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens'
+} from '@dobra-ui/tokens'
 
 export const {
+  theme,
+  config,
   styled,
   css,
   globalCss,
   keyframes,
   getCssText,
-  theme,
   createTheme,
-  config,
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
