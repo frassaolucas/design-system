@@ -1,11 +1,11 @@
 {
   "name": "@dobra-ui/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "private": true,
   "main": "index.js",
   "devDependencies": {
-    "@rocketseat/eslint-config": "^2.1.0",
-    "eslint": "^8.54.0"
+    "@rocketseat/eslint-config": "^2.2.2",
+    "eslint": "^8.56.0"
   }
 }
